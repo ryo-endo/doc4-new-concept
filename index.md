@@ -20,6 +20,6 @@ EC-CUBEのインストール方法、開発ガイドラインや要素技術の�
 
 EC-CUBEは以下のサポートを受けています。
 <figure class="half">
-    <a href="https://www.sakura.ad.jp/"><img src="/images/3-1-2line-rgb-whiteback.png"></a>
-    <a href="https://vaddy.net/ja/"><img src="/images/VAddy_logo.png"></a>
+    <a href="https://www.sakura.ad.jp/"><img src="/doc4-new-concept/images/3-1-2line-rgb-whiteback.png"></a>
+    <a href="https://vaddy.net/ja/"><img src="/doc4-new-concept/images/VAddy_logo.png"></a>
 </figure>
