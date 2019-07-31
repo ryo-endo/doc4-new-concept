@@ -5,9 +5,13 @@ tags: [quickstart, install]
 sidebar: home_sidebar
 permalink: quickstart_install
 forder: quickstart
+sidebar:
+  nav: "docs"
+toc: true
+toc_sticky: true
+layout: single
+author_profile: false
 ---
-
-## インストール方法
 
 EC-CUBEのインストールは、以下の2種類の方法があります。
 

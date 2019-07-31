@@ -5,9 +5,13 @@ tags: [quickstart, cli]
 sidebar: home_sidebar
 permalink: quickstart_cli
 forder: quickstart
+sidebar:
+  nav: "docs"
+toc: true
+toc_sticky: true
+layout: single
+author_profile: false
 ---
-
-## コマンドラインインターフェイス
 
 EC-CUBEでは、コマンドラインで実行できる各種ユーティリティコマンドを提供しています。
 以下のように実行することができます。
