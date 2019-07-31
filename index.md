@@ -1,14 +1,15 @@
 ---
 layout: single
 author_profile: false
-title: EC-CUBE 4.0 開発者向けドキュメント
+title: EC-CUBE 4.0 開発者向けドキュメント（新デザインコンセプト）
 keywords: このサイトについて, QuickStart
 sidebar:
   nav: "docs"
 permalink: /
 ---
 
-EC-CUBE 4.0 の開発ドキュメントサイトです。 
+EC-CUBE 4.0 の開発ドキュメントサイトの新デザインコンセプトです。
+あくまでデザインお試しのデモサイトのため、情報が古い可能性があります。参考にはしないでください。
  
 EC-CUBEのインストール方法、開発ガイドラインや要素技術の概念、本体開発やプラグイン開発のチュートリアル、Cookbookなどの情報を提供しています。  
   
