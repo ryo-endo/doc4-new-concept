@@ -1,12 +1,88 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
+  - title: "はじめる"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "学ぶ"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "EC-CUBEについて"
+    url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+# documentation links
+docs:
+  - title: Quick Start
+    output: web, pdf
+    children:
+      - title: システム要件
+        url: /quickstart_requirement
+        output: web, pdf
+        type: homepage
+        output: web, pdf
+      - title: インストール方法
+        url: /quickstart_install
+        output: web, pdf
+      - title: バージョンアップ方法
+        url: /quickstart_update
+        output: web, pdf
+      - title: コマンドラインインターフェイス
+        url: /quickstart_cli
+        output: web, pdf
+
+  - title: 本体カスタマイズ
+    output: web, pdf
+    children:
+      - title: ディレクトリ構成
+        url: /spec_directory-structure
+        output: web, pdf
+      - title: Controllerのカスタマイズ
+        url: /customize_controller
+        output: web, pdf
+      - title: Entityのカスタマイズ
+        url: /customize_entity
+        output: web, pdf
+      - title: Repositoryのカスタマイズ
+        url: /customize_repository
+        output: web, pdf
+      - title: FormTypeのカスタマイズ
+        url: /customize_formtype
+        output: web, pdf
+      - title: Serviceのカスタマイズ
+        url: /customize_service
+        output: web, pdf
+      - title: テンプレートのカスタマイズ
+        url: /customize_template
+        output: web, pdf
+      - title: Symfonyの機能を使った拡張
+        url: /customize_symfony
+        output: web, pdf
+
+  - title: プラグインカスタマイズ
+    output: web, pdf
+    children:
+      - title: プラグイン仕様
+        url: /plugin_spec
+        output: web, pdf
+      - title: プラグインのインストール
+        url: /plugin_install
+        output: web, pdf
+      - title: プラグインサンプル
+        url: /plugin_sample
+        output: web, pdf
+
+  - title: 多言語化
+    output: web, pdf
+    children:
+      - title: 多言語化
+        url: /i18n_multilingualization
+        output: web, pdf
+      - title: 通貨
+        url: /i18n_currency
+        output: web, pdf
+      - title: タイムゾーン
+        url: /i18n_timezone
+        output: web, pdf
