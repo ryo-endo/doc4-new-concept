@@ -1105,7 +1105,7 @@ ja: &DEFAULT_JA
   ext_link_label             : "リンク"
   less_than                  :
   minute_read                :
-  share_on_label             : "共有"
+  share_on_label             : "ページを共有する"
   meta_label                 :
   tags_label                 : "タグ:"
   categories_label           : "カテゴリー:"
