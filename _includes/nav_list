@@ -26,8 +26,10 @@
             {% comment %} internal/external URL check {% endcomment %}
             {% if child.url contains "://" %}
               {% assign child_url = child.url %}
+              {% assign child_is_new_window = true %}
             {% else %}
               {% assign child_url = child.url | relative_url %}
+              {% assign child_is_new_window = false %}
             {% endif %}
 
             {% comment %} set "active" class on current page {% endcomment %}
@@ -37,7 +39,11 @@
               {% assign active = "" %}
             {% endif %}
 
-            <li><a href="{{ child_url }}" class="{{ active }}">{{ child.title }}</a></li>
+            {% if child_is_new_window %}
+              <li><a href="{{ child_url }}" target="_blank" class="{{ active }}">{{ child.title }}</a></li>
+            {% else %}
+              <li><a href="{{ child_url }}" class="{{ active }}">{{ child.title }}</a></li>
+            {% endif %}
           {% endfor %}
         </ul>
         {% endif %}
