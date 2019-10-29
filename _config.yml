@@ -16,12 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ja-JP"
-#title                    : "EC-CUBE 4.0 開発ドキュメント"
 title                    : "< for EC-CUBE 4.0 Developers />"
 title_separator          : "-"
 subtitle                 : "EC-CUBE 4.0 開発者向けドキュメントサイト"# site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "EC-CUBE"
+description              : "EC-CUBE 4.0 開発者向けドキュメントサイト"
 url                      : "https://ryo-endo.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/doc4-new-concept" # the subpath of your site, e.g. "/blog"
 repository               : "ryo-endo/doc4-new-concept" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
